@@ -2,6 +2,11 @@
 body{
     background-color: black;
     /* overflow: hidden; */
+    
+}
+*{
+    font-style: oblique;
+    color: #333;
 }
 .spinner {
     margin: 100px auto;
