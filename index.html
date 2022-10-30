@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <section id="reload ">
+
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+
+  </section>
+
+
+  <section id="home">
+    <nav class="list-ul">
+      <ul class="list-unstyled text-white p-5  ">
+        <li id="search" class="py-3 "><a class="text-decoration-none text-white" href="#demo">Search</a></li>
+        <li class="py-3 "><a id="categories" class="text-decoration-none text-white" a href="#category">Categories</a>
+        </li>
+        <li class="py-3 "><a id="area" class="text-decoration-none text-white" href="#Area">Area</a></li>
+        <li id="Ingredients" class="py-3 "><a class="text-decoration-none text-white"
+            href="#Ingredients">Ingredients</a></li>
+        <li class="py-3 "><a class="text-decoration-none text-white" id="contactUs" href="#Contact Us">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="list-caption text-white text-center d-flex flex-column justify-content-between py-5 text-black ">
+      <div>
+        <img src="images/logo.png" class=" w-50 " alt="">
+      </div>
+      <div class="text-black">
+        <i class="active fa fa-align-justify fa-2x"></i>
+        <i class="nonActive  fa fa-align-justify fa-times fa-2x"></i>
+      </div>
+      <div class="d-flex flex-column text-black">
+        <i class="fas fa-globe py-3"></i>
+        <i class="fas fa-share-alt"></i>
+      </div>
+    </div>
+  </section>
+
+
+  <div id="hide" class=" container mx-auto p-5">
+    <div class="inner-search d-flex justify-content-center  py-2">
+      <input id="searchInput" class=" form-control w-25 m-2 " type="text" placeholder="Search By Name">
+      <input id="firstLitter" maxlength="1" class=" form-control w-25 m-2 " type="text"
+        placeholder="Search By First Letter">
+    </div>
+  </div>
+  <div class="row py-5 container mx-auto text-white  g-4" id="demo">
+  </div>
+
+  <div class=" container mx-auto ps-5 py-5">
+    <div id="information" class="information row g-5 container ms-5 w-75 mx-auto">
+    </div>
+  </div>
+
+  <div id="closeAll" class="   container mx-auto w-75 py-5 ">
+
+    <div id="category" class="row g-5 container mx-auto ">
+
+    </div>
+    <div id="Allcategory" class="row g-5   container mx-auto ">
+
+
+
+
+    </div>
+    <div id="areaHtml" class="row g-5    container mx-auto w-75 ">
+
+
+    </div>
+    <div id="allAreaHtml" class="row g-5   container mx-auto w-75 ">
+
+
+    </div>
+
+    <div id="IngredientHtml" class="row g-5 my-5 container mx-auto w-75  mx-auto ">
+
+    </div>
+    <div id="allIngredientHtml" class="row g-5 my-5  container mx-auto w-75  mx-auto ">
+
+    </div>
+
+
+
+
+    <section id="contact" class=" w-75 mx-4 container">
+
+
+      <div>
+        <h2 class="text-center ">ContacUs...</h2>
+
+        <div class="row container mx-auto g-5 my-5">
+
+          <div class="col-md-6">
+            <div class="w-100  ">
+              <input class="  form-control  shadow1 w-100 btn btn-black bord" id="nameInput" type="text"
+                placeholder="Enter your Name">
+
+              <p class=" alert-name alert alert-danger my-2 d-none">Special Characters and Numbers not allowed</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="w-100">
+              <input class="form-control shadow1 w-100 btn btn-black bord" id="emailInput" type="text"
+                placeholder="Enter Email">
+              <p class="alert-email alert alert-danger my-2 d-none">Enter valid email. *Ex: xxx@yyy.zzz</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="w-100">
+              <input class="form-control shadow1 w-100 btn btn-black bord" id="phoneInput" type="text"
+                placeholder="Enter Phone">
+              <p class="alert-age alert alert-danger my-2 d-none">Enter valid phone</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="w-100">
+              <input class="form-control shadow1 w-100 btn btn-black bord" id="ageInput" type="text"
+                placeholder="Enter Age">
+              <p class="alert-age alert alert-danger my-2 d-none">Enter valid Age</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="w-100">
+              <input class="form-control shadow1 w-100 btn btn-black bord" id="passwordInput" type="password"
+                placeholder="Enter Password">
+              <p class="alert-password alert alert-danger my-2 d-none"> Enter valid password *Minimum eight characters,
+                at least one letter and one number:*</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="w-100">
+              <input class="form-control shadow1 w-100 btn btn-black bord" id="repasswordInput" type="password"
+                placeholder="Enter Repassword">
+              <p class="alert-repassword  alert alert-danger my-2 d-none">Enter valid Repassword</p>
+            </div>
+          </div>
+        </div>
+        <div class="dis d-flex justify-content-center">
+          <button disabled class="text-center btn btn-outline-danger">Submit</button>
+        </div>
+      </div>
+
+
+    </section>
+
+
+  </div>
+
+
+
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
