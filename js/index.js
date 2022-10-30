@@ -67,6 +67,8 @@ $("#search").click(function () {
   $("#areaHtml").empty(500);
   $("#Allcategory").empty(500);
   $("#allAreaHtml").empty(500);
+  $("#IngredientHtml").empty(500);
+  $("#allIngredientHtml").empty(500);
   $("#hide").fadeIn(500);
   $("#contact").hide(500);
 });
@@ -160,7 +162,7 @@ function displayDetails() {
             <h3 class="py-3">Tags:</h3>
             <p class="btn btn-light">Soup</p>
             <div>
-              <a class="btn btn-warning" href="##">Sourse</a>
+              <a class="btn btn-warning" href="${detailsList[i].strSource}">Sourse</a>
               <a class="btn btn-danger" href="${detailsList[i].strYoutube}">Youtube</a>
             </div>
             </div>
@@ -536,7 +538,7 @@ $("#contactUs").click(function () {
   $("#areaHtml").empty(500);
   $("#Allcategory").empty(500);
   $("#allAreaHtml").empty(500);
-  $("#IngredientHtml").show(500);
+  $("#IngredientHtml").empty(500);
   $("#hide").fadeOut(500);
   $("#contact").show(500);
 });
